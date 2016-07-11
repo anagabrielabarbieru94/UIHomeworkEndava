@@ -1,14 +1,38 @@
-#blank{
+
+#navbar{
+	font-family: 'Source Sans Pro', sans-serif;
+	box-shadow: 5px 7px 5px #888888;
+}
+#navbar #endava_span{
+	margin: 5% 20%;
+}
+
+#navbar .home_span{
+	margin-right: 2%
+}
+#navbar a{
+	text-decoration: none;
+}
+#blank p{
 	background: white;
-	height: 15%; 
+	padding-bottom: 3%
 }
 #lorem{
 	background: #30c3a6;
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
-	padding: 40px;
+	padding-top: 5%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 5%;
 
+}
+#lorem h1{
+	font-size: 35px;
+}
+#lorem p{
+	font-size: 25px;
 }
 #aboutus{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -17,7 +41,7 @@
 	padding-top: 10%;
 	padding-left: 20%;
 	padding-right: 20%;
-	padding-bottom: 20%;
+	padding-bottom: 10%;
 
 }
 #about_title{
@@ -36,7 +60,7 @@
 	padding-top: 10%;
 	padding-left: 20%;
 	padding-right: 20%;
-	padding-bottom: 20%
+	padding-bottom: 10%
 }
 #photos_title{
 	border-bottom: 1px solid #234a60; 
@@ -49,16 +73,22 @@
 
 .lorem_div{
 	display: inline-block;
-	height: 200px;
-	width: 200px;
+	height: 20%;
+	width: 20%;
 	margin: 25px 25px;
+}
+#readbutton{
+	background-color: black;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	height: 75px;
+	height: 35px;
 }
 footer{
 	background: #234a60;
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
-	height: 100px;
-	text-orientation: right;
-	padding-top: 40px;
-	padding-left: 60%
+	padding-bottom: 5%;
+	padding-left: 65%;
+	padding-top: 5%;
 }
