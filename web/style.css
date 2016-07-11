@@ -56,14 +56,15 @@
     padding:0 30px; 
 }
 #photos{
+	position: static;
 	background: #30c3a6;
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 5%;
 	padding-left: 20%;
 	padding-right: 20%;
-	padding-bottom: 10%
+	padding-bottom: 5%
 }
 #photos_title{
 	text-transform: uppercase;
@@ -76,13 +77,17 @@
 }
 
 .lorem_div{
+	position: relative;
 	display: inline-block;
 	height: 20%;
 	width: 20%;
-	margin: 25px 25px;
+	margin: 45px 45px;
 }
 .lorem_div h2{
 	text-transform: uppercase;
+}
+.lorem_div img{
+	border: 10px solid white;
 }
 #readbutton{
 	background-color: black;
