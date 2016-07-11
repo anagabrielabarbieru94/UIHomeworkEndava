@@ -12,6 +12,7 @@
 }
 #navbar a{
 	text-decoration: none;
+	text-transform: uppercase;
 }
 #blank p{
 	background: white;
@@ -30,6 +31,7 @@
 }
 #lorem h1{
 	font-size: 35px;
+	text-transform: uppercase;
 }
 #lorem p{
 	font-size: 25px;
@@ -45,6 +47,7 @@
 
 }
 #about_title{
+	text-transform: uppercase;
 	border-bottom: 1px solid #000; 
 	line-height:0.2em; 
 }
@@ -63,6 +66,7 @@
 	padding-bottom: 10%
 }
 #photos_title{
+	text-transform: uppercase;
 	border-bottom: 1px solid #234a60; 
 	line-height:0.1em;
 }
@@ -76,6 +80,9 @@
 	height: 20%;
 	width: 20%;
 	margin: 25px 25px;
+}
+.lorem_div h2{
+	text-transform: uppercase;
 }
 #readbutton{
 	background-color: black;
