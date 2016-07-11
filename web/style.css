@@ -17,21 +17,41 @@
 	padding-top: 10%;
 	padding-left: 20%;
 	padding-right: 20%;
+	padding-bottom: 20%;
 
 }
 #about_title{
 	border-bottom: 1px solid #000; 
-	line-height:0.1em; 
+	line-height:0.2em; 
 }
 #about_title span{
 	background:#fff; 
-    padding:0 10px; 
+    padding:0 30px; 
 }
 #photos{
 	background: #30c3a6;
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
+	padding-top: 10%;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 20%
+}
+#photos_title{
+	border-bottom: 1px solid #234a60; 
+	line-height:0.1em;
+}
+#photos_title span{
+	background: #30c3a6; 
+    padding:0 30px; 
+}
+
+.lorem_div{
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	margin: 25px 25px;
 }
 footer{
 	background: #234a60;
