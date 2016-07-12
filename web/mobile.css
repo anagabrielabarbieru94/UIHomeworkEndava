@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) and (min-width: 0px){
+@media screen and (max-width: 500px) and (min-width: 0px){
 	#navbar{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #d2cccc;
@@ -137,14 +137,9 @@
 	#formdiv{
 		background-color: white;
 		padding-top: 10px;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 19px;
+		padding-right: 15px;
 		padding-bottom: 10px;
-		box-shadow: 0px 5px 0px  #d2cccc;
-	}
-
-	#formdiv form{
-		column-count: 2;
 		display: block;
 	}
 	#formdiv p{
@@ -153,7 +148,6 @@
 	}
 	input, label{
 		margin-bottom: 5px;
-		margin-right: 5px;
 		display: block;
 		font-size: 10px;
 	}
@@ -163,7 +157,7 @@
 	}
 	#message{
 		width: 100px;
-		height: 50px;
+		height: 10px;
 	}
 	#send{
 		background: #30c3a6;
@@ -171,14 +165,18 @@
 		width: 100px;
 		height: 40px;
 	}
+	#button{
+		text-align: center;
+	}
 	footer{
 		background: #234a60;
 		color: white;
 		font-family: 'Source Sans Pro', sans-serif;
 		padding-bottom: 5%;
-		padding-left: 65%;
+		padding-left: 5%;
+		padding-right: 5%;
 		padding-top: 5%;
-		font-size: 18px;
+		font-size: 5px;
 	}
 	footer img{
 		width: 20px;
@@ -187,5 +185,26 @@
 	footer p{
 		display: none;
 		visibility: hidden;
+	}
+	#footbar{
+		visibility: visible;
+		display: block;
+		color: white;
+		text-transform: uppercase;
+	}
+	#footbar div{
+		text-align: center;
+		font-size: 12px;
+		color: white;
+		font-family: 'Source Sans Pro', sans-serif;
+
+	}
+	
+	#footbar div a:visited{
+		color: white;
+	}
+	.footlink {
+		display: block;
+		text-align: center;
 	}
 }

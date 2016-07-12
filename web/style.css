@@ -150,6 +150,8 @@ input, label{
 	margin-bottom: 5px;
 	margin-right: 5px;
 	display: block;
+	width: 200px;
+	height: 15px;
 }
 #message{
 	width: 200px;
@@ -173,4 +175,11 @@ footer{
 footer img{
 	width: 30px;
 	height: 30px;
+}
+#footbar{
+	visibility: hidden;
+	display: none;
+}
+.footlink{
+	display: inline-block;
 }
