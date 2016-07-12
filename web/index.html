@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="mobile.css">
 		<link rel="stylesheet" type="text/css" href="tablet.css">
 		<meta name="viewport" content="width=device-width">
+		<script type="text/javascript" src="validationScript.js"></script>
 		<title> UI Homework </title>
 	</head>
 
@@ -86,7 +87,7 @@
 				<h1> <span> Contact Us </span> </h1>
 				<div id="formdiv">
 					<p> Endava 2016! </p>
-					<form>
+					<form name="myForm" method="post" action="form_validation.html">
 						<div>
 							<label> Your name* </label>
 							<input type="text" name="username" required="">
@@ -106,9 +107,8 @@
 							<label> Type your message* </label>
 							<input type="textarea" name="message" id="message">
 						</div>
-
 					</form>
-					<div id="button"><button id="send"> Send Message </button></div>
+					<div id="button"><button id="send" onclick = "validateForm()"> Send Message </button></div>
 				</div>
 			</article>
 		</section>

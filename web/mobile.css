@@ -1,14 +1,13 @@
 @media screen and (max-width: 500px) and (min-width: 0px){
 	#navbar{
-	font-family: 'Source Sans Pro', sans-serif;
-	color: #d2cccc;
-	box-shadow: 5px 7px 5px #d2cccc;
-	height: 15%;
+		font-family: 'Source Sans Pro', sans-serif;
+		color: #d2cccc;
+		box-shadow: 5px 7px 5px #d2cccc;
 	}
 	
-	#navbar #endava_span a img{
-		width: 20;
-		height: 40;
+	#endava_span a img{
+		width: 10;
+		height: 20;
 	}
 	#navbar .home_span{
 		visibility: hidden;
@@ -118,8 +117,8 @@
 		background-color: #e33314;
 		font-family: 'Source Sans Pro', sans-serif;
 		height: 40%;
-		padding-bottom: 5%;
-		padding-top: 5%;
+		padding-bottom: 7%;
+		padding-top: 7%;
 		padding-left: 10%;
 		padding-right: 10%;
 	}
@@ -197,6 +196,7 @@
 		font-size: 12px;
 		color: white;
 		font-family: 'Source Sans Pro', sans-serif;
+		padding-bottom: 3px;
 
 	}
 	
@@ -206,5 +206,6 @@
 	.footlink {
 		display: block;
 		text-align: center;
+		padding-bottom: 3px;
 	}
 }
